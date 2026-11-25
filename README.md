@@ -12,9 +12,9 @@ Jag vill vara ärlig och säga att det här projektet har varit en av de störst
 - **Förhindra dubbletter**: Innan en rad sparas kontrolleras om samma station och tidstämpel redan finns i databasen.
 
 ## Teknisk information
-- **Språk**: C# (.NET 11.0)
+- **Språk**: C# (.NET 11.0) Det är super viktigt när du öppnar projektet och kör det!!! 
 - **Databas**: SQL Server LocalDB med Entity Framework Core (Code First)
-- **Konfiguration**: Anslutningssträngen ligger i `appsettings.json` (inte hårdkodad i C#)
+- **Konfiguration**: Anslutningssträngen ligger i `appsettings.json` 
 - **UI**: Spectre.Console för meny och tabeller
 - **Felloggning**: `bad_data.log` skapas automatiskt vid import
 
